@@ -1,0 +1,57 @@
+.body {
+  background-color: violet;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.nav {
+  color: black;
+
+}
+
+.dropbtn {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  font-size: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: blue;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  float: inline-end;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: whitesmoke;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  right: 0;
+  z-index: 1;
+  align-content: center;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {
+  background-color: antiquewhite;
+}
+
+.show {
+  display: block;
+}

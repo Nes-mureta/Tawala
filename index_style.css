@@ -1,0 +1,128 @@
+/* menu bar stylings */
+.body {
+  background-color: violet;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.nav {
+  color: black;
+  background-color: whitesmoke;
+  height: 45px;
+  padding: 10px;
+  border-radius: 5px;
+
+}
+
+.dropbtn {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  font-size: 10px;
+  border: none;
+  cursor: pointer;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: blue;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  float: inline-end;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: whitesmoke;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  right: 0;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {
+  background-color: antiquewhite;
+}
+
+.show {
+  display: block;
+}
+
+/* end of menu bar stylings */
+/* section 1 styling */
+.container {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+  border-bottom: 8px solid blue;
+
+}
+
+.text {
+  position: absolute;
+  right: 0px;
+  bottom: 10px;
+  padding: 10px;
+  color: black;
+  font-weight: bolder;
+
+}
+
+.container2 {
+  position: ralative;
+  background-color: white;
+  height: 300px;
+  padding: 0px;
+  margin-top: 0px;
+}
+
+.container2_1 {
+  position: relative;
+  padding: 10px;
+  background-color: antiquewhite;
+  border-radius: 5px;
+}
+
+.container2_2 {
+  position: relative;
+  padding: 10px;
+  background-color: blue;
+  bottom: 0;
+  right: 0;
+}
+
+.container2_3 {
+  position: relative;
+  padding: 10px;
+  background-color: blue;
+  position: bottom cente;
+}
+
+.container2_4 {
+  position: relative;
+  padding: 10px;
+
+  background-color: blue;
+  bottom: 0;
+  left: 0;
+}
