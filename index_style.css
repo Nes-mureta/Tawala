@@ -94,35 +94,91 @@
   height: 300px;
   padding: 0px;
   margin-top: 0px;
+
+}
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
 }
 
 .container2_1 {
-  position: relative;
-  padding: 10px;
-  background-color: antiquewhite;
-  border-radius: 5px;
+  flex-basis: 100%; 
 }
 
-.container2_2 {
-  position: relative;
-  padding: 10px;
-  background-color: blue;
-  bottom: 0;
-  right: 0;
-}
-
-.container2_3 {
-  position: relative;
-  padding: 10px;
-  background-color: blue;
-  position: bottom cente;
-}
-
+.container2_2,
+.container2_3,
 .container2_4 {
-  position: relative;
-  padding: 10px;
-
-  background-color: blue;
-  bottom: 0;
-  left: 0;
+  text-align: center;
+  margin-top: 20px;
+  flex-basis: calc(33.33% - 10px); /* Adjust width to fit within container and add some spacing */
+ 
 }
+
+.container2_1 h2 {
+  font-size: 24px;
+  color:black;
+}
+
+.container2_1 p {
+  font-size: 16px;
+  color:black;
+}
+
+.container2_2 i,
+.container2_3 i,
+.container2_4 i {
+  font-size: 36px;
+  color: blue;
+}
+
+.container2_2 h4,
+.container2_3 h4,
+.container2_4 h4 {
+  font-size: 18px;
+  color: green;
+  margin-top: 10px;
+}
+/*footer styling*/
+.footer {
+  background-image: url('images/big-ocean-wave-260nw-394687543.jpg');
+  background-size: cover;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.footer a {
+  color: black;
+  text-decoration: none;
+  
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+.social_links {
+  margin-top: 20px;
+}
+
+.social_links h5 {
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+
+.social_links a {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social_links a i {
+  font-size: 24px;
+  color: black;
+}
+/*end*/
+
+
